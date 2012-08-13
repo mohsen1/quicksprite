@@ -1,0 +1,71 @@
+/*Theme*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #006F7E
+}
+
+
+/*Alignment*/
+.options .control-label {
+    text-align: left;
+}
+.sprites-tab .nav-tabs {
+    margin-bottom: 0;
+}
+.sprites-tab .tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 15px 0;
+    margin-bottom: 30px;
+}
+.sprites-tab .tab-content > div {
+    margin: 0 15px;
+}
+.droparea {
+    border: 5px dashed green;
+    border-radius: 10px;
+    background: lightgreen;
+    box-shadow: 0 0 0 5px lightgreen;
+}
+.droparea.dropping {
+    box-shadow: 0 0 0 5px #3AD5D5;
+}
+.droparea h1 {
+    margin: 50px 15px;
+    text-align: center;
+    color: rgba(0, 128, 0, 0.71);
+    text-shadow: 0 0 4px white;
+}
+.browse-files {
+    margin: 10px 15px 0;
+    text-align: center;
+}
+.browse-files .input-file {
+    margin-left: 10px;
+}
+.browse-files .control-label {
+    float:none;
+    display: inline;
+}
+.browse-files .control-group {
+    margin-bottom: 0;
+}
+
+.image-collection {
+
+}
+.image-collection img{
+    max-width: 50px;
+    max-height: 50px;
+    margin: 20px;
+    padding: 5px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 20px 0 #eee;
+}
+
+.sprite-result img{
+    background: url(../img/chessboard.png)
+}

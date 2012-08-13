@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Quick Sprite</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+        <link rel="stylesheet" type="text/css" href="css/prettify.css">
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+    </head>
+    <body class="">
+        <div class="page-header">
+            <h1>Quick Sprite
+            <small>Generate CSS sprite image and CSS code necessary for it with two mouse move</small></h1>
+        </div>
+        <div class="container-fluid">
+            <div class="span6 sprites-tab">
+                <ul class="nav nav-tabs" id="imagestabs">
+                    <li>
+                        <a href="#spriteresult" data-toggle="tab">Sprite Image</a>
+                    </li>
+                    <li>
+                        <a href="#droparea" data-toggle="tab" class="active">Original Images</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="droparea" class="tab-pane">
+                        <div class="image-collection" id="images"></div>
+                        <div class="active droparea" id="dropHere">
+                            <h1>Drop your images here</h1>
+                        </div>
+                        <form action="" class="form-horizontal browse-files">
+                            <fieldset>
+                                <div class="control-group">
+                                    <label class="control-label" for="file" >Or browse for image files</label>
+                                    <input class="input-file" type="file" multiple id="files">
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div id="spriteresult" class="tab-pane sprite-result">
+                        <h4>Sprite result...</h4>
+                        <div id="sprite"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="span6">
+                <h3>Options</h3>
+                <form action="#" class="form-horizontal options">
+                    <fieldset>
+                        <div class="control-group">
+                            <label class="control-label" for="spacing">Spacing</label>
+                            <div class="input-append">
+                                <input class="span1" id="spacing" size="4" type="number" min="0" value="10">
+                                <span class="add-on">px</span>
+                            </div>
+                            <span>Space between each image in sprite</span>
+                        </div>
+                    </fieldset>
+                </form>
+                <h3>CSS Code</h3>
+                <small>classes generated based on filenames</small>
+                <pre>
+                    one {
+                        background-position: 10px 10px;
+                    }
+                </pre>
+            </div>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/prettify.js"></script>
+        <script src="js/lang-css.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/ui.js"></script>
+        <script src="js/canvas-trim.js"></script>
+        <script src="js/underscore.js"></script>
+        <script src="js/backbone.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
