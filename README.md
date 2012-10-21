@@ -4,6 +4,8 @@ Quick Sprite
 I made my own sprite builder using HTML5 technologies. This sprite builder doesn’t rely on server side image processing and works all in front end. It also generate CSS code developer may need for it’s sprite. All background-position properties are calculated and there is no need for eyeballing pixels in Photoshop to find out exact position of an icon! It generates width and height and even background-image property for each image. CSS classes are guessed based on each image file name. User can select between camel case and dash separated class names.
 Using Quick Sprite is very easy, you just drag your images in the app and it generates sprite image and CSS code in a second! You can drag out the result image our download it using the provided download link.
 
+![image](http://i.imgur.com/aZlg4.png)
+
 Technology Stack
 ================
 
