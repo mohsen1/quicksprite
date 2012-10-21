@@ -1,4 +1,4 @@
-﻿/*Theme*/
+/*Theme*/
 h1,
 h2,
 h3,
@@ -133,18 +133,6 @@ header nav {
 }
 .css-result {
     padding: 0 20px;
-}
-.css-result h1 {
-    display: block;
-    width: 100%;
-    padding: 0;
-    margin-bottom: 27px;
-    font-size: 19.5px;
-    line-height: 36px;
-    color: #333;
-    border: 0;
-    border-bottom: 1px solid #E5E5E5;
-    font-weight: normal;
 }
 .css-code-options{
     padding-top: 20px;

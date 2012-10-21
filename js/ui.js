@@ -1,7 +1,7 @@
-$(function  () {
-    $('#imagestabs a').click(function (e) {
-        e.preventDefault();
-        $(this).tab('show');
+﻿$(function  () {
+    $('#dropHere').on('click', function(e) {
+        $('#files').trigger('click');
     });
-    $('#imagestabs a:eq(1)').trigger('click'); //WTf? why bs don't make tab status active?
+
+
 });
